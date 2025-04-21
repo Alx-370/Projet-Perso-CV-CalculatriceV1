@@ -1,0 +1,88 @@
+*{
+    /*permet d'enlever tout le style qui est donné par défaut aux éléments*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*pour prendre toute la largeur possible*/
+    max-width: 100vw;
+    /*pour prendre toute la hauteur possible*/
+    height: 100vh;
+    /*pour mettre les éléments au centre en haut*/
+    display: flex;
+    justify-content: center;
+    /*pour mettre les éléments au centre de la page*/
+    align-items: center;
+    /*permet de changer la police d'écriture*/
+    font-family: sans-serif;
+    /*permet de créer un joli fond en dégradé*/
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.calculatrice{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px black;
+}
+
+.ecran{
+    width: 100%;
+    height: 100px;
+    background-color: lightskyblue;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    /*sert à aligner les éléments à droite*/
+    justify-content: flex-end;
+    /*sert à aligner les éléments vers le bas*/
+    align-items: flex-end;
+    /*permet de créer un espace entre l'écran et le texte à l'interieur*/
+    padding: 5px;
+    /*taille de l'écriture dans l'écran*/
+    font-size: 25px;
+}
+
+.touches{
+    /*permet de créer une grille*/
+    display: grid;
+    /*permet de créer les 4 colones*/
+    grid-template-columns: repeat(4, 50px);
+    /*permet de créer les 5 lignes*/
+    grid-template-rows: repeat(5, 50px);
+    /*permet de créer un espace entre les touches*/
+    grid-gap: 7px;
+}
+
+button{
+border: none;
+outline: none;
+border-radius: 5px;
+background-color: white;
+box-shadow: 0 3px gray;
+font-size: 18px;
+}
+
+button:active{
+    box-shadow: 0 1px gray;
+    transform: translateY(2px); 
+}
+
+button[data-key="8"]{
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+}
+
+button[data-key="13"]{
+    grid-column: span 2;
+    background-color: rgb(131, 216, 2);
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+
+}
