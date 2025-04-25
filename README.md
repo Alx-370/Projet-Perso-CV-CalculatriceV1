@@ -1,7 +1,21 @@
 # Projet Calculatrice Version 1.0
 <img src= "imageCalculatriceV1.png" width="150"/>
 
-<p>Petit projet perso pour le plaisir d'une calculatrice</p>
+<p>Projet personnel : Calculatrice
+Dans le cadre de mon apprentissage et par pur plaisir de coder, j’ai réalisé une petite calculatrice web. L’objectif était simple : créer un outil pratique tout en continuant à m’exercer sur le HTML, CSS et JavaScript.
+<br>
+<br>
+Cette calculatrice permet d’effectuer les opérations de base (addition, soustraction, multiplication, division), avec une interface simple agréable à utiliser.
+<br>
+<br>
+ Objectifs du projet :<br>
+ 
+  -M’entraîner à manipuler le DOM avec JavaScript,
+
+  -Gérer les événements et les interactions utilisateur,
+
+  -Renforcer mes bases en logique de programmation.</p>
+<br>
 
 <p>Ouvrir en premier le fichier index.html</p>
 
