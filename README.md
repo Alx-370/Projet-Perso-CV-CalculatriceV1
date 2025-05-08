@@ -17,6 +17,9 @@ Cette calculatrice permet d’effectuer les opérations de base (addition, soust
   -Renforcer mes bases en logique de programmation.</p>
 <br>
 
+Envie d'essayer?
+https://alx-370.github.io/Projet-Perso-CalculatriceV1/ <br><br>
+
 <p>Ouvrir en premier le fichier index.html</p>
 
 
